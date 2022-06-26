@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: 'League Spartan', sans-serif;
   font-size: 15px;
+  color: var(--very-dark-magenta);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

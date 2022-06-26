@@ -1,10 +1,11 @@
+import SocialMain from './components/SocialMain';
 import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <main className="App">
+        <SocialMain />
+    </main>
   );
 }
 

@@ -1,0 +1,39 @@
+.social-user-card {
+    margin: 16px 0px;
+    padding: 40px 30px;
+    width: 270px;
+    height: 170px;
+    background-color: var(--very-dark-magenta);
+    color: var(--white);
+    border-radius: 12px;
+}
+
+.social-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.social-user-img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.social-user-info-block {
+    margin-left: 20px;
+}
+
+.social-user-name {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-user-buyer {
+    margin: 0;
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+
+.social-user-message {
+    line-height: 24px;
+    font-size: 17px;
+}

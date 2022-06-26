@@ -1,0 +1,16 @@
+.social-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social-intro-title {
+    margin: 0px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.social-intro-info {
+    font-size: 18px;
+    line-height: 24px;
+}
