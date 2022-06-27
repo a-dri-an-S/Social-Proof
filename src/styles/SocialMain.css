@@ -1,4 +1,12 @@
-.social-main {
-    width: 330px;
-    margin: 100px 0px;
+@media only screen and (max-width: 1440px){
+    .social-main {
+        width: 330px;
+        margin: -150px 0px;
+    }
+}
+@media only screen and (min-width: 1441px){
+    .social-main {
+        width: 1440px;
+        /* margin: -150px 0px; */
+    }
 }

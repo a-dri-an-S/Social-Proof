@@ -1,4 +1,26 @@
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1440px){
+  .bg-mobile-top {
+    background-image: url("../assets/images/bg-pattern-top-mobile.svg");
+    background-size: 375px;
+    width: 375px;
+    height: 230px;
+    position: top;
+  }
+  .bg-mobile-bottom {
+    background-image: url("../assets/images/bg-pattern-bottom-mobile.svg");
+    background-size: 375px;
+    width: 375px;
+    height: 230px;
+    position: bottom;
+  }
+}
+@media only screen and (min-width: 1441px){
+
 }
