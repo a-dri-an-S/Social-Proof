@@ -1,7 +1,8 @@
 import "../styles/SocialRatings.css";
 import SocialRating from "./SocialRating";
-
 import { socialReviews } from "../assets/data.js";
+
+import "../styles/SocialRatings.css"
 
 const SocialRatings = () => {
 
@@ -11,7 +12,9 @@ const SocialRatings = () => {
             {
                 socialReviews.map((rating, id) => {
                     return (
-                        <SocialRating social={rating} key={id}/>
+                        <div className={`segment-${id}`}>
+                            <SocialRating social={rating} key={id} />
+                        </div>
                     )
                 })
             }

@@ -6,7 +6,12 @@
 }
 @media only screen and (min-width: 1441px){
     .social-main {
-        width: 1440px;
-        /* margin: -150px 0px; */
+        width: 1400px;
+        margin: 0px 0px;
+    }
+    .social-main-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
     }
 }

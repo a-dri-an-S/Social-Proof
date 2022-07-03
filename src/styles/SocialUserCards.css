@@ -1,7 +1,7 @@
 .social-user-card {
     background-color: var(--very-dark-magenta);
     color: var(--white);
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .social-user-info {
@@ -42,26 +42,41 @@
     }
 }
 @media only screen and (min-width: 1441px) {
-    /* .social-user-card {
-        margin: 16px 0px;
+    .social-user-cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 380px;
+    }
+    .card-0 {
+        margin-bottom: 100px;
+    }
+    .card-2 {
+        margin-top: 100px;
+    }
+    .card-0 {
+        margin-bottom: 100px;
+    }
+    .social-user-card {
         padding: 40px 30px;
-        width: 270px;
-        height: 170px;
+        width: 380px;
+        height: 200px;
     }
     .social-user-img {
         border-radius: 50%;
-        width: 40px;
+        width: 60px;
     }
     .social-user-info-block {
         margin-left: 20px;
     }
     .social-user-name {
-        font-size: 16px;
+        font-size: 20px;
     }
     .social-user-buyer {
+        font-size: 18px;
     }
     .social-user-message {
-        line-height: 24px;
-        font-size: 17px;
-    } */
+        line-height: 28px;
+        font-size: 22px;
+    }
 }

@@ -10,12 +10,14 @@ const SocialUserCards = () => {
             {
                 socialData.map((user, key) => {
                     return (
-                        <SocialUserCard 
-                            key={key}
-                            name={user.name}
-                            image={user.image}
-                            message={user.message}
-                        />
+                        <div className={`card-${key}`}>
+                            <SocialUserCard 
+                                key={key}
+                                name={user.name}
+                                image={user.image}
+                                message={user.message}
+                            />
+                        </div>
                     )
                 })
             }

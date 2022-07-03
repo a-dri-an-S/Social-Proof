@@ -6,8 +6,10 @@ import "../styles/SocialMain.css";
 const SocialMain = () => {
     return (
         <section className="social-main">
-            <SocialIntro />
-            <SocialRatings />
+            <div className="social-main-top">
+                <SocialIntro />
+                <SocialRatings />
+            </div>
             <SocialUserCards />
         </section>
     );

@@ -22,5 +22,30 @@
   }
 }
 @media only screen and (min-width: 1441px){
-
+  .App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bg-desktop-top {
+    background-image: url("../assets/images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .bg-mobile-bottom {
+    background-image: url("../assets/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
 }
